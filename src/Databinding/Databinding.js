@@ -20,8 +20,7 @@ export default class Databinding extends Component {
                 <p>{product.name}</p>
                 <p>{product.price}</p>
                 <button className = "btn btn-success">Mua</button>
-            </div>
-            
+            </div>          
         </div>
     }
 

@@ -1,3 +1,71 @@
-p{
-  color: red;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  background: #000;
+  opacity: 0.5;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header__title{
+  color: #fff;
+  text-align: center;
+  line-height: 5rem;
+}
+.product{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),url(./glassesImage/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 50rem;
+}   
+.product__list{
+  padding-top: 8rem;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.product__models__left{
+  position: relative;
+}
+.model-left{
+
+}
+.product__models__right{
+  
+}
+.product__glasses{
+  padding-top: 2rem;
+}
+/* .product__glasses >button img{
+  height: 100%;
+} */
+.models__background{
+  position: relative;
+}
+.models__glasses{
+  width: 54%;
+  height: 15%;
+  left: 82px;
+  top: 114px;
+  position: absolute; 
+} 
+.model__detail{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffa870;
+  opacity: 0.5;
+}
+.model__detail > h3{
+  color: blue;
+}
+.model__detail > p{
+  color: #fff
 }
